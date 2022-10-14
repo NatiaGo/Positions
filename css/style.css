@@ -1,0 +1,173 @@
+body {
+    padding-top: 50px;
+    background-color: #F6F8F9;
+}
+/* header */
+.header {
+    position: fixed;
+    display: inline-block;
+    width: 100%;
+    height: 50px; 
+    top: 0;
+    left: 0;
+}
+.logo{
+    display: inline-block;
+    margin: 18px 92px 17px 20px;
+	vertical-align: middle;
+}
+.nav {
+    display: inline-block;  
+}
+.nav-style {
+    color: #343638;
+    opacity: 50%;
+	font-size: 11px;
+    font-weight: bold;
+}
+.nav-li {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 20px 27px 18px 0;
+}
+.home {
+    opacity: 100%;
+}
+
+/* trending section */
+.container {
+    width: 1160px;
+    height: 410px;
+}
+.trending-title {
+    width: 1025px;
+    height: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-left: 140px;
+}
+/* first container */
+.box1 {
+    position: relative;
+    display: inline-block;
+    width: 360px;
+    height: 350px;
+    top: 40px;
+    left :140px;
+}
+.text1-box{
+    position: absolute;
+    width: 280px;
+    height: 16px;
+    top: 28px;
+    left: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.text-block1 {
+    width: 360px;
+    height: 180px;
+    position: relative;
+    background-color: #FFFFFF;
+}
+.text1 {
+    position: absolute;
+    width: 280px;
+    height: 38px;
+    bottom: 66px;
+    left: 40px;
+    color: #A6ADB4;
+    font-size: 13px;
+}
+.time {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+}
+.span-time {
+    position: absolute;
+    bottom: 40px;
+    left: 66px;
+    font-size: 13px;
+    color: #A6ADB4;
+}
+/* second container */
+.box2 {
+    position: relative;
+    display: inline-block;
+    width: 360px;
+    height: 350px;
+    top: 40px;
+    left :140px;
+    margin-left: 36px;
+    margin-right: 36px;
+}
+/* third container */
+.box3 {
+    position: relative;
+    display: inline-block;
+    width: 360px;
+    height: 350px;
+    top: 40px;
+    left :140px;
+}
+
+/* section 2  */
+
+.container2 {
+    margin-right: auto;
+    margin-left: 140px;
+    width: 1160px;
+    height: 845px;
+}
+.happening-title {
+    font-weight: bold;
+    font-size: 24px;
+    width: 760px;
+    height: 20px;
+    margin: 58px 530px 36px 0px
+}
+
+.left-side {
+    position: relative;
+    display: inline-block;
+    width: 760px;
+    height: 900px;
+    vertical-align: top;
+}
+.bridge-image {
+    margin-bottom: 40px;
+}
+.text-bridge {
+    position: absolute;
+    top: 194px;
+    left: 308px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+}
+.right-side {
+    /* position: relative; */
+    display: inline-block;
+    width: 360px;
+    height: 896px; 
+    margin-left: 36px;
+    vertical-align: top;
+}
+.parrot {
+    width: 360px;
+    height: 210px;
+    margin-bottom: 120px;
+    margin-top: 120px;
+}
+
+/* fonts */
+.helvetica {
+    font-family: 'Helvetica';
+}
+
+.acumin {
+    font-family: 'Acumin Pro';
+}
